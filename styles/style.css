@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 35px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png) ;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    /* padding-top:106px ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-head{
+    font-size: 64px;
+    font-weight: 800px;
+    color: white;
+    margin-bottom: 24px;
+}
+.banner-descripton{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.banner-options{
+    /* display: inline-flex; */
+    /* display: block; */
+    padding: 16px;
+    max-width: 70%;
+    /* align-items: flex-start; */
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.div{
+    display: flex;
+    justify-content: center;
+}
+.search-btn{
+    
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 16px;
+    border-radius: 8px;
+background: #FFF;
+    border: none;
+}
+#places{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 16px;
+    border-radius: 8px;
+background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+
+
+}
+
+
+/* main part style */
+
+.our-popular-tours{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.our-popular-tours-text{
+    max-width: 48%;
+}
+.our-popular-tours-text *{
+    margin-top: 35px;
+}
+.our-popular-tours-text> h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+}
+.our-popular-tours-img{
+    max-width: 48%;
+}
+
+
+
+.newsletter{
+    max-width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.newsletter-text{
+    border-radius: 16px;
+border: 1px solid #FF5400;
+    height: 200px;
+    max-width: 38%;
+}
+.newsletter-img{
+    height: 200px;
+    max-width: 58%;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+}
