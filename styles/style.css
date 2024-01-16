@@ -323,7 +323,7 @@ background: #FFF;
 
 .newsletter{
     max-width: 80%;
-    margin: 100px auto;
+    margin: 100px auto 100px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -393,3 +393,50 @@ border: 1px solid #FF5400;
     font-size: 24px;
     font-weight: 400;
 }
+
+
+/* footer part start */
+    .footer{
+        max-width: 100%;
+        background: rgba(19, 19, 24, 0.05);
+        text-align: center;
+        padding: 110px;
+    }
+    .footer-parent{
+        max-width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 50px;
+        border-bottom: 2px solid rgba(19, 19, 24, 0.10);;
+
+    }
+    .footer-head{
+        /* max-width: 40%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-head > img{
+        max-width: 40px;
+    }
+    .footer-head > h2{
+        font-size: 32px;
+        font: 800;
+    }
+    .footer-parent > p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #5A5A5D;
+        margin-top: 15px;
+        margin-bottom: 33px;
+        line-height: 26px;
+    }
+    .copyright{
+        font-size: 16px;
+        font-weight: 300;
+        color: #131318;
+        margin-top: 50px;
+    }
