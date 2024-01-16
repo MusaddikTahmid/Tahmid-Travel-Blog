@@ -92,6 +92,7 @@ background: #FFF;
 }
 .our-popular-tours-text{
     max-width: 48%;
+    color: rgba(19, 19, 24, 0.70);
 }
 .our-popular-tours-text *{
     margin-top: 35px;
@@ -127,4 +128,117 @@ border: 1px solid #FF5400;
 .sub{
     display: flex;
     flex-direction: column;
+}
+
+/* destination part styles */
+.destination{
+    max-width: 80%;
+    margin: 100px auto;
+}
+
+.destination-text >h1{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination-text >p {
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 24px;
+    margin-bottom: 48PX;
+}
+.img-container-one{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.img-container-two{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 25px;
+}
+.img-container-three{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 25px;
+}
+.Maldives{
+    position: relative;
+}
+.Maldives > p{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 130px;
+    left: 219px;
+}
+.indonesia{
+    position: relative;
+}
+.indonesia > p{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 130px;
+    left: 219px;
+}
+.Srilanka{
+    position: relative;
+}
+.Srilanka > p{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 130px;
+    left: 140px;
+}
+.North-America{
+    position: relative;
+}
+.North-America > p{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 130px;
+    left: 140px;
+}
+.Kashmir{
+    position: relative;
+}
+.Kashmir > p{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 130px;
+    left: 85px;
+}
+.bangladesh{
+    position: relative;
+}
+.bangladesh > p{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 130px;
+    left: 160px;
+}
+.Bandarban{
+    position: relative;
+}
+.Bandarban> p{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 130px;
+    left: 245px;
 }
