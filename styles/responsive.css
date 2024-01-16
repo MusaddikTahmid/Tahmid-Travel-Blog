@@ -216,6 +216,9 @@
         margin: 0;
         padding: 0;
     }
+    .choose-heading > h2{
+        font-size: 20px;
+    }
     .choose-sub-section-one{
         max-width: 100%;
     }
@@ -319,6 +322,18 @@
         flex-direction: column;
         gap: 40px;
     }
+    .perfect-places-text-container > h1{
+        font-size: 20px;
+    }
+    
+    .perfect-places-text-container > p{
+        font-size: 14px;
+    }
+    
+    .perfect-places-text-container > li{
+        font-size: 14px;
+    }
+    
     .perfect-places-text-container{
         max-width: 100%;
     }
@@ -371,6 +386,8 @@
     .my-part{
         flex-direction: column;
     }
-
+    .my-part-head{
+        font-size: 20px;
+    }
 
 }
